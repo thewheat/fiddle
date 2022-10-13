@@ -160,7 +160,7 @@ export const SidebarFileTree = observer(
       ];
 
       return (
-        <div style={{ overflow: 'hidden' }}>
+        <div className="editors-tree">
           <Tree contents={editorsTree} />
         </div>
       );

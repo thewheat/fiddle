@@ -27,6 +27,25 @@
   }
 }
 
+.editors-tree {
+  > .bp3-tree {
+    height: 100%;
+
+    > .bp3-tree-node-list{
+      height: 100%;
+
+      > .bp3-tree-node{
+        height: 100%;
+
+        > .bp3-collapse {
+          overflow: auto !important;
+          height: calc(100% - 30px) !important;
+        }
+      }
+    }
+  }
+}
+
 .package-tree {
   .bp3-tree-node-content {
     .bp3-tree-node-secondary-label {
